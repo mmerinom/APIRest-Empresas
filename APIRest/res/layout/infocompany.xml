@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >        <!-- Layout con los componentes que mostrarán el detalle de la información de contacto de una empresa  -->        <TextView                style="@style/etiqueta"        android:text="@string/empresa"  	/>    
+    <ImageView
+        android:id="@+id/imgVLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"		/>
+    <TextView        style="@style/campo"
+        android:id="@+id/txtVName"
+        android:text="@string/s_empresa"    />
+
+    <TextView        style="@style/campo"
+        android:id="@+id/txtWebsite"        android:text="@string/s_web"        android:autoLink="web"				/>    
+    <TextView                style="@style/etiqueta"  
+        android:text="@string/direcciones"  />	    
+    <ListView        android:id="@+id/lstVAddressLines"        style="@style/campo">
+        <!-- Preview: listitem=@android:layout/simple_list_item_1 -->
+    </ListView>
+    <TextView        style="@style/etiqueta"                android:text="@string/codigo_postal"        />    <TextView        style="@style/campo"        android:id="@+id/txtVZipCode"        android:text="@string/s_codigo_postal"	/>            <TextView		style="@style/etiqueta"        android:text="@string/ciudad"  />
+    <TextView		style="@style/campo"        android:text="@string/s_ciudad"         
+        android:id="@+id/txtVCity"		/>
+        <TextView        style="@style/etiqueta"        android:text="@string/pais"  	/>        
+	<TextView        style="@style/campo"        android:text="@string/s_pais"  		    	    
+		android:id="@+id/txtVCountry"	/>
+    
+    <TextView        style="@style/etiqueta"
+        android:text="@string/telefonos"/>		<!-- encabezado para lista de teléfonos -->
+    <ListView        style="@style/campo"        
+        android:id="@+id/lstVPhones">
+        <!-- Preview: listitem=@android:layout/simple_list_item_1 -->        
+    </ListView>
+
+</LinearLayout>

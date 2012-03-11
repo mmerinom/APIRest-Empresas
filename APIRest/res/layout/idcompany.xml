@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	 <!-- Layout compuesto por una lista que mostrará los nombres de las empresas que ofrece el servicio web  -->
+    <TextView        
+        style="@style/etiqueta"
+        android:text="@string/listin_empresas"  	/>	 	        
+    <ListView
+        style="@style/campo"
+        android:id="@+id/lstVEmpresas"        
+        android:drawSelectorOnTop="false" >
+        <!-- Preview: listitem=@android:layout/simple_list_item_1 -->
+    </ListView>
+
+</LinearLayout>

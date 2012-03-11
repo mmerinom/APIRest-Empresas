@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">APIRest Empresas </string>
+    <string name="listin_empresas">Listín Empresa</string>
+    <string name="empresa">Empresa</string>
+    <string name="direcciones">Direcciones</string>
+    <string name="codigo_postal">Código Postal</string>
+    <string name="ciudad">Ciudad</string>
+    <string name="pais">País</string>
+    <string name="telefonos">Telefonos</string>
+    <string name="s_empresa">sin empresa</string>
+    <string name="s_web">sin web</string>    
+    <string name="s_codigo_postal">sin código postal</string>
+    <string name="s_ciudad">sin ciudad</string>
+    <string name="s_pais">sin país</string>
+</resources>
