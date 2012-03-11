@@ -1,7 +1,7 @@
 En este repositorio hay dos proyectos:
 
-   APIRest     - Cliente REST para la consulta de datos en formato JSON. 
-                 Admite dos peticiones: Consulta de empresas disponibles 
+   APIRest     - Cliente REST para la consulta de datos en formato JSON. Admite dos peticiones: 
+                 Consulta de empresas disponibles 
                  Consulta de datos de contacto de una empresa.	     	      
    APIRestTest - Conjunto de pruebas en JUNIT3
 
